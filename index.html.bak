@@ -129,7 +129,7 @@
   </p>
 
   <div class="btn-group">
-    <a href="#contact" class="btn btn-primary blue">Get in Touch</a>
+    <a href="https://www.linkedin.com/in/ajlaburina/" class="btn btn-primary blue">LinkedIn</a>
     <a href="#about" class="btn">About Me</a>
   </div>
 </div>
@@ -192,7 +192,7 @@
       <!-- 
         - #PORTFOLIO
       -->
-<section class="section portfolio" id="portfolio">
+<section class="section portfolio" id="portfolio" style="margin-top:-60px;">
   <div class="container">
 
     <p class="section-subtitle">Portfolio</p>
@@ -206,63 +206,12 @@
     <ul class="portfolio-list">
 
       <li>
-        <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
-          <div class="card-content">
-
-            <p class="card-subtitle">YouTube</p>
-
-            <h3 class="h3 card-title">Marketing Campaign</h3>
-
-            <span class="btn-link">
-              <span>View Project</span>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </span>
-
-          </div>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
-          <div class="card-content">
-
-            <p class="card-subtitle">Vimeo</p>
-
-            <h3 class="h3 card-title">Social Media Campaign</h3>
-
-            <span class="btn-link">
-              <span>View Project</span>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </span>
-
-          </div>
-        </a>
-      </li>
-
-      <li>
         <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
           <div class="card-content">
 
             <p class="card-subtitle">SoundCloud</p>
 
             <h3 class="h3 card-title">Email Marketing Campaign</h3>
-
-            <span class="btn-link">
-              <span>View Project</span>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </span>
-
-          </div>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
-          <div class="card-content">
-
-            <p class="card-subtitle">Details</p>
-
-            <h3 class="h3 card-title">Website Redesign</h3>
 
             <span class="btn-link">
               <span>View Project</span>
@@ -286,7 +235,7 @@
         - #SKILLS
       -->
 
-      <section class="section skills" id="skills">
+<section class="section skills" id="skills">
   <div class="container">
 
     <p class="section-subtitle">My Skills</p>
@@ -359,6 +308,96 @@
         </div>
       </li>
 
+      <li class="skills-item">
+        <div class="wrapper" style="width: 90%">
+          <h3 class="skills-title">Salesforce</h3>
+          <data class="skills-data" value="90">90%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 90%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 85%">
+          <h3 class="skills-title">HubSpot</h3>
+          <data class="skills-data" value="85">85%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 85%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 80%">
+          <h3 class="skills-title">Apollo</h3>
+          <data class="skills-data" value="80">80%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 80%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 85%">
+          <h3 class="skills-title">LinkedIn Sales Navigator</h3>
+          <data class="skills-data" value="85">85%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 85%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 75%">
+          <h3 class="skills-title">Zoom</h3>
+          <data class="skills-data" value="75">75%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 75%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 80%">
+          <h3 class="skills-title">Outreach</h3>
+          <data class="skills-data" value="80">80%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 80%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 85%">
+          <h3 class="skills-title">Salesloft</h3>
+          <data class="skills-data" value="85">85%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 85%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 90%">
+          <h3 class="skills-title">Close</h3>
+          <data class="skills-data" value="90">90%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 90%"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="wrapper" style="width: 80%">
+          <h3 class="skills-title">Instantly</h3>
+          <data class="skills-data" value="80">80%</data>
+        </div>
+        <div class="skills-progress-box">
+          <div class="skills-progress" style="width: 80%"></div>
+        </div>
+      </li>
+
     </ul>
 
   </div>
@@ -383,7 +422,7 @@
 
             <div class="wrapper">
 
-              <form action="" class="contact-form">
+              <form class="contact-form">
 
                 <input type="text" name="name" placeholder="Name" required class="contact-input">
 
@@ -436,6 +475,107 @@
         </div>
       </section>
 
+
+<style>
+
+.loading-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}</style>
+
+
+<!-- Add this div for the loading animation -->
+<div id="loadingAnimation" class="loading-container">
+  <div class="loading-spinner"></div>
+</div>
+
+
+<script>
+
+var userName = document.getElementById("name");
+var userEmail = document.getElementById("email");
+var userMessage = document.getElementById("messageBody");
+var userSubject = document.getElementById("subject");
+var orderFormSubmit = document.getElementById("newOrderForm");
+var loadingAnimation = document.getElementById("loadingAnimation");
+const body = document.querySelector("body");
+const emailRegex = /^[^\s@]+@[^\s@]+\.(com|net|org|edu|gov|mil|biz|info|name|museum|co\.uk|org\.uk|net\.uk|ac\.uk|sch\.uk|aero|asia|cat|coop|jobs|mobi|museum|tel|travel)$/i;
+
+orderFormSubmit.addEventListener("submit", function(event) {
+  event.preventDefault(); 
+  
+  // Email validation
+  if (!emailRegex.test(userEmail.value)) {
+    alert('Invalid email');
+    return;
+  }
+
+  loadingAnimation.style.display = "block";
+
+  var formData = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMessage.value,
+    subject: userSubject.value,
+  };
+
+  fetch("https://bewildered-tan-tux.cyclic.cloud/send-data-juan", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(function(response) {
+    if (response.ok) {
+      alert("Message submitted successfully.");
+      loadingAnimation.style.display = "none";
+      location.reload();
+    } else {
+      console.log("Error submitting message.");
+      loadingAnimation.style.display = "none";
+    }
+  })
+  .catch(function(error) {
+    console.log("Error submitting message.");
+    loadingAnimation.style.display = "none";
+    console.error(error);
+  });
+});
+
+</script>
 
 
 
