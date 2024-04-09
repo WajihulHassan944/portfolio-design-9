@@ -130,7 +130,7 @@
 
   <div class="btn-group">
     <a href="https://www.linkedin.com/in/ajlaburina/" class="btn btn-primary blue">LinkedIn</a>
-    <a href="#about" class="btn">About Me</a>
+    <a href="Ajla - Recommendation Letter.pdf" download="Ajla - Recommendation Letter.pdf" class="btn">Recommendation Letter</a>
   </div>
 </div>
 
@@ -195,29 +195,24 @@
 <section class="section portfolio" id="portfolio" style="margin-top:-60px;">
   <div class="container">
 
-    <p class="section-subtitle">Portfolio</p>
+    <p class="section-subtitle">Letter</p>
 
-    <h2 class="h2 section-title">My Creative Projects</h2>
+    <h2 class="h2 section-title">My Recommendation Letter</h2>
 
     <p class="section-text">
-      Take a look at some of my recent projects below.
+      Take a look at my recommendation letter below.
     </p>
 
     <ul class="portfolio-list">
 
       <li>
-        <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+        <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg'); background-size:cover; background-position:center;
+		background-repeat:no-repeat;">
           <div class="card-content">
 
-            <p class="card-subtitle">SoundCloud</p>
-
-            <h3 class="h3 card-title">Email Marketing Campaign</h3>
-
-            <span class="btn-link">
-              <span>View Project</span>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </span>
-
+            <img src="letterone.png" style="width:100%;">
+			<img src="lettertwo.png" style="width:100%;">
+			
           </div>
         </a>
       </li>
@@ -422,13 +417,15 @@
 
             <div class="wrapper">
 
-              <form class="contact-form">
+              <form class="contact-form" id="newOrderForm">
 
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
+                <input type="text" name="name" placeholder="Name" required class="contact-input" id="name">
 
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
+                <input type="email" name="email" placeholder="Email" required class="contact-input" id="email">
+				
+				<input type="text" name="subject" placeholder="Subject" required class="contact-input" id="subject">
 
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                <textarea name="message" placeholder="Message" required class="contact-input" id="messageBody"></textarea>
 
                 <button type="submit" class="btn-submit">Submit Message</button>
 
@@ -551,7 +548,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
     subject: userSubject.value,
   };
 
-  fetch("https://bewildered-tan-tux.cyclic.cloud/send-data-juan", {
+  fetch("https://bewildered-tan-tux.cyclic.cloud/send-ajla-message", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
